@@ -1,0 +1,23 @@
+$font-family-manrope: 'Manrope', sans-serif !default;
+$font-family-base: $font-family-manrope !default;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "colors";
+@import "fonts";
+@import "typography";
+
+@import "pages/index";
+
+html {
+  height: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+  }
+}

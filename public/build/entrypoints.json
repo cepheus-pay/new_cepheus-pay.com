@@ -1,0 +1,19 @@
+{
+  "entrypoints": {
+    "js/app": {
+      "js": [
+        "/public/build/js/app.js"
+      ]
+    },
+    "css/landing": {
+      "css": [
+        "/public/build/css/landing.css"
+      ]
+    },
+    "css/home": {
+      "css": [
+        "/public/build/css/home.css"
+      ]
+    }
+  }
+}

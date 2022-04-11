@@ -1,0 +1,28 @@
+body {
+  &.rules {
+    .rules-content {
+      h1 {
+        font-size: 40px;
+        margin-bottom: 24px;
+        @extend .c-dark;
+      }
+
+      p {
+        margin-bottom: 5px;
+        font-size: 16px;
+
+        @extend .c-dark;
+
+        &.heading {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .rules-content {
+    padding: 136px 336px 128px 336px!important;
+  }
+}
